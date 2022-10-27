@@ -22,7 +22,9 @@
 	 //console.log(user);
 	 //console.log(meta);
 	 //console.log(init);
-         $.success({id:1, first_name: 'Pechenegov', last_name: 'Ivan', login: 'ivan.p', role: 2});
+
+        $.success({id:1, first_name: 'Pechenegov', last_name: 'Ivan', login: 'ivan.p', role: 2});
+        /*if (user) {						
          /*if (user) {						
              $.roles(roles[user.role]);			
              $.success(user);

@@ -6,6 +6,7 @@ exports.install = function() {
 }
 
 function view_login() {
+    var self = this;
       self.view('page/login');
   }
 
